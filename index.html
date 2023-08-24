@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#work">Work</a></li>
+      <li><a href="#cv">CV</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home">
+    <h1>Welcome to My Portfolio</h1>
+    <p>Discover my skills, projects, and more.</p>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am passionate about web development...</p>
+  </section>
+
+  <!-- Work Section -->
+  <section id="work">
+    <h2>My Work</h2>
+    <div class="project">
+      <h3>Project 1: Portfolio Website</h3>
+      <p>A responsive portfolio showcasing my skills.</p>
+    </div>
+    <div class="project">
+      <h3>Project 2: E-commerce Site</h3>
+      <p>An online store built using modern technologies.</p>
+    </div>
+    <!-- More project entries here -->
+  </section>
+
+  <!-- CV Section -->
+  <section id="cv">
+    <h2>My CV</h2>
+    <div class="cv-entry">
+      <h3>Education</h3>
+      <p>Computer Science B.Sc. - University Name</p>
+    </div>
+    <div class="cv-entry">
+      <h3>Work Experience</h3>
+      <p>Web Developer - Company Name</p>
+    </div>
+    <!-- More CV entries here -->
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="contact.php" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+      
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+  </footer>
+</body>
+</html>
